@@ -1,29 +1,92 @@
 body
 {
-	background-color:gray;
-	font-family:Verdana;
-	font-size:20px;
-	color:white;
+	background: #404040;
+	font-family: 'Mina', sans-serif;
 }
 
-h1
-{
-	font-size:48px;
-	color:red!important;
-}
 
-/*Nieodwiedzony link*/
-a:link
+	#container
+		{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+		
+		}
+	#logo
+		{
+			color:white;
+			margin-top: 20px;
+			font-size:24px;
+			letter-spacing: 3px;
+		}
+	#menu
+		{
+			background-color:#303030;
+			margin-top: 20px;
+			color:#ffffff;
+			padding: 10px;
+		}
+	#topbar
+		{
+			background-color: #128870;
+			color: white;
+			padding: 10px;
+			margin-top: 20px;
+			margin-bottom: 25px;
+			height: 170px;
+		}
+		
+	#topbarL
+		{
+			float:left;
+			padding: 20px;
+			width: 138px;
+			text-align: center;
+			border-right: 2px dotted #cccccc;
+		}
+		#topbarR
+		{
+			float: left;
+			padding: 20px;
+			width: 760px;
+			font-size: 16px;
+			text-align: justify;
+		}
+		
+	#sidebar
+		{
+			
+		}
+	#content
+		{
+			
+		}
+	#footer
+		{
+			
+		}
+		
+.option
+	{
+		float:left;
+		min-width:50px;
+		height:25px;
+		font-size:18px;
+		padding:10px;
+		border-right:2px dotted #444444;
+		opacity: 0.8;
+
+	}	
+	
+.option:hover
 {
-	color:yellow;
-}
-/*Odwiedzony link*/
-a:visited
-{
-	color:yellow;
-}
-/*Najechany link*/
-a:hover
-{
+	background-color:#000000;
+	cursor:pointer;
 	color:red;
 }
+	
+
+
+		
+	
+
